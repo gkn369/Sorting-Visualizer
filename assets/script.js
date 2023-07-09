@@ -54,6 +54,7 @@ function createArray() {
     for(var i = 0; i < size; i++) {
         var n = Math.floor( Math.random() * (MAX - MIN + 1) ) + MIN;
         arr.push(n);
+        
         var $element = $('<div>');
         $element.attr('id', "e" + i);
         $element.attr('class', "element");
